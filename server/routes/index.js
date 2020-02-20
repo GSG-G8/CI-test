@@ -11,7 +11,7 @@ const {
 } = require('../controllers');
 
 router.get('/', (req, res) => {
-  res.send('helo');
+  res.send('hello');
 });
 
 router.get('/facsters', getAll);
