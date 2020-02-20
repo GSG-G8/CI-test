@@ -7,7 +7,7 @@ test('All routes should return the expected results', t => {
   request(app)
     .get('/facsters/')
     .expect(200)
-    .expect('Content-Type', /json/)
+    .expect('Content-Type', /html/)
     .end((err, res) => {
       t.error(err);
       t.end();
