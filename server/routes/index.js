@@ -7,7 +7,7 @@ const {
   getSingleFacster,
   addFacster,
   getFacsterHobby,
-  getFacsterSuperpower,
+  // getFacsterSuperpower,
 } = require('../controllers');
 
 router.get('/', (req, res) => {
