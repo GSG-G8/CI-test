@@ -17,7 +17,7 @@ test('First User Should be Abdullah', t => {
   request(app)
     .get('/facsters/')
     .expect(200)
-    .expect('Content-Type', /json/)
+    .expect('Content-Type', /html/)
     .end((err, res) => {
       t.error(err);
       t.same(res.body[0].firstname, 'Abdullah');
